@@ -1,0 +1,8 @@
+<template name="postPage">
+  <h2>{{title}}</h2>
+  <p>{{body}}</p>
+  {{#if fileId}}
+  <img src="/uploads/{{fileId}}">
+  {{/if}}
+  <p>by {{author}}</p>
+</template>
